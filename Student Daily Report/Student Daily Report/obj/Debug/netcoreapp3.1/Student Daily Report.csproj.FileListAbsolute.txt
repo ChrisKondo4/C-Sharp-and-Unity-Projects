@@ -1,0 +1,12 @@
+C:\Users\PC\Desktop\Basic_C#_Programs\Student Daily Report\Student Daily Report\bin\Debug\netcoreapp3.1\Student Daily Report.exe
+C:\Users\PC\Desktop\Basic_C#_Programs\Student Daily Report\Student Daily Report\bin\Debug\netcoreapp3.1\Student Daily Report.deps.json
+C:\Users\PC\Desktop\Basic_C#_Programs\Student Daily Report\Student Daily Report\bin\Debug\netcoreapp3.1\Student Daily Report.runtimeconfig.json
+C:\Users\PC\Desktop\Basic_C#_Programs\Student Daily Report\Student Daily Report\bin\Debug\netcoreapp3.1\Student Daily Report.runtimeconfig.dev.json
+C:\Users\PC\Desktop\Basic_C#_Programs\Student Daily Report\Student Daily Report\bin\Debug\netcoreapp3.1\Student Daily Report.dll
+C:\Users\PC\Desktop\Basic_C#_Programs\Student Daily Report\Student Daily Report\bin\Debug\netcoreapp3.1\Student Daily Report.pdb
+C:\Users\PC\Desktop\Basic_C#_Programs\Student Daily Report\Student Daily Report\obj\Debug\netcoreapp3.1\Student Daily Report.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\Basic_C#_Programs\Student Daily Report\Student Daily Report\obj\Debug\netcoreapp3.1\Student Daily Report.AssemblyInfo.cs
+C:\Users\PC\Desktop\Basic_C#_Programs\Student Daily Report\Student Daily Report\obj\Debug\netcoreapp3.1\Student Daily Report.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Basic_C#_Programs\Student Daily Report\Student Daily Report\obj\Debug\netcoreapp3.1\Student Daily Report.dll
+C:\Users\PC\Desktop\Basic_C#_Programs\Student Daily Report\Student Daily Report\obj\Debug\netcoreapp3.1\Student Daily Report.pdb
+C:\Users\PC\Desktop\Basic_C#_Programs\Student Daily Report\Student Daily Report\obj\Debug\netcoreapp3.1\Student Daily Report.genruntimeconfig.cache
