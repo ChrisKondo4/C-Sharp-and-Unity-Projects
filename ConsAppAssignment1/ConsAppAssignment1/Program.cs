@@ -61,19 +61,19 @@ namespace ConsAppAssignment1
                 switch (guess)
                 {
                     case "watermelon":
-                        Console.WriteLine("You guessed watermelon! That is correct!");
+                        Console.WriteLine("0");
                         isGuessed = true;
                         break;
                     case "pear":
-                        Console.WriteLine("You guessed pear! That is correct!");
+                        Console.WriteLine("1");
                         isGuessed = true;
                         break;
                     case "banana":
-                        Console.WriteLine("You guessed banana! That is correct!");
+                        Console.WriteLine("2");
                         isGuessed = true;
                         break;
                     case "nectarine":
-                        Console.WriteLine("You guessed nectarine! That is correct!");
+                        Console.WriteLine("3");
                         isGuessed = true;
                         break;
                     default:
@@ -110,11 +110,29 @@ namespace ConsAppAssignment1
                 Console.WriteLine("Your greeting isn't on my list.");
             }
 
-            Console.WriteLine("Let's do it again.");
-            string newGreeting = Console.ReadLine();
+            Console.ReadLine();
+            List<string> stringList2 = new List<string>();
+            bool start = true;
             foreach (string indices in stringList1)
             {
-                Console.WriteLine(indices);
+                if (start == true)
+                {
+                    stringList2.Add(indices);
+                    Console.WriteLine(indices);
+                    start = false;
+                }
+                foreach (string indices1 in stringList2)
+                {
+                    if (indices1 == indices)
+                    {
+                        Console.WriteLine(indices + "Has shown up before!");
+                    }
+                    else
+                    {
+                        Console.WriteLine(indices);
+                        stringList2.Add(indices);
+                    }
+                }
             }
         }
     }
