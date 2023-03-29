@@ -112,26 +112,16 @@ namespace ConsAppAssignment1
 
             Console.ReadLine();
             List<string> stringList2 = new List<string>();
-            bool start = true;
             foreach (string indices in stringList1)
             {
-                if (start == true)
+                if (stringList2.Contains(indices))
                 {
-                    stringList2.Add(indices);
-                    Console.WriteLine(indices);
-                    start = false;
+                    Console.WriteLine(indices + ". This is a duplicate greeting!");
                 }
-                foreach (string indices1 in stringList2)
+                else
                 {
-                    if (indices1 == indices)
-                    {
-                        Console.WriteLine(indices + "Has shown up before!");
-                    }
-                    else
-                    {
-                        Console.WriteLine(indices);
-                        stringList2.Add(indices);
-                    }
+                    Console.WriteLine(indices);
+                    stringList2.Add(indices);
                 }
             }
         }
