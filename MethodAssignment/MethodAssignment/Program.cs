@@ -10,25 +10,22 @@ namespace MethodAssignment
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello! I see you wish to multiply. Simply input one or two numbers.");
-            int z = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Would you like to input a second number? True/false");
-            bool optional = Convert.ToBoolean(Console.ReadLine());
-            if (optional == false)
+            Class1 ten = new Class1();
+
+            Console.WriteLine("Hello, please enter a number. Or two. We're adding here, by the way.");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Any second number?");
+            bool second = Convert.ToBoolean(Console.ReadLine());
+            if (second == true)
             {
-                Console.WriteLine(Multiply(z));
+                Console.WriteLine("Name your second number");
+                int y = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine(ten.Addition(x, y));
             }
             else
             {
-                Console.WriteLine("What is your second number?");
-                int w = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine(Multiply(z, w));
+                Console.WriteLine(ten.Addition(x));
             }
-        }
-
-        static int Multiply(int x, int y = 5)
-        {
-            return x * y;
         }
     }
 }
