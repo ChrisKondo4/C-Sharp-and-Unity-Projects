@@ -20,7 +20,7 @@ namespace OperatorsAssignment
                 Id = 1,
                 Name = "Harry"
             };
-            Uno == Dos;
+            Console.WriteLine(Uno == Dos);
         }
     }
 }

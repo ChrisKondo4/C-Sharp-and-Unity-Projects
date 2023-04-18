@@ -13,12 +13,12 @@ namespace OperatorsAssignment
 
         public static bool operator == (Employee Uno, Employee Dos)
         {
-            return Uno == Dos;
+            return Uno.Id == Dos.Id;
         }
 
         public static bool operator != (Employee Uno, Employee Dos)
         {
-            return Uno != Dos;
+            return Uno.Id != Dos.Id;
         }
     }
 }
