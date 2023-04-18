@@ -16,6 +16,12 @@ namespace PolymorphismAssignment
                 lastName = "Student"
             };
             student.SayName();
+            IQuittable student2 = new Employee
+            {
+                firstName = "Sample2",
+                lastName = "Student2"
+            };
+            student2.Quit();
         }
     }
 }

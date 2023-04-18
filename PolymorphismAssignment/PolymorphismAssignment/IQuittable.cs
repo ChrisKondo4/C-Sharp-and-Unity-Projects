@@ -8,6 +8,6 @@ namespace PolymorphismAssignment
 {
     interface IQuittable
     {
-        void Quit(string whomst);
+        void Quit();
     }
 }

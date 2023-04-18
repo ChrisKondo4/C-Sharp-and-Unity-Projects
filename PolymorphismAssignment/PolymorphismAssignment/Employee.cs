@@ -12,7 +12,7 @@ namespace PolymorphismAssignment
         {
             Console.WriteLine(firstName + " " + lastName);
         }
-        public void Quit(string firstName)
+        public void Quit()
         {
             Console.WriteLine(firstName + " quits.");
         }

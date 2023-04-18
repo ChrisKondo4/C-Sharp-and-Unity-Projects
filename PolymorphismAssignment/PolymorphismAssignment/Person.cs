@@ -14,4 +14,3 @@ namespace PolymorphismAssignment
         public abstract void SayName();
     }
 }
-}
