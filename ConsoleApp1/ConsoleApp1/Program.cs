@@ -12,17 +12,13 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello, please give me a number!");
             int x = Convert.ToInt32(Console.ReadLine());
-            New(x);
-        }
-        
-        static void New(int x)
-        {
-            Console.WriteLine(x / 2);
-        }
+            Console.WriteLine(Inting.Methoding(x));
+            int a, b;
+            Inting.Methoding(out a, out b);
 
-        static void New(string x)
-        {
-            Console.WriteLine(x + " is not an okay thing to say.");
+            Console.WriteLine("Here's the second number you sent me: {0}", a);
+            Console.WriteLine("And here's the third number you sent me!: {0}", b);
+            Console.ReadLine();
         }
     }
 }
