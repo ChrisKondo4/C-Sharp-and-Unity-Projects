@@ -10,9 +10,7 @@ namespace AbstractClassAssignment
     {
         public string firstName { get; set; }
         public string lastName { get; set; }
-        public void SayName()
-        {
-            Console.WriteLine(firstName + " " + lastName);
-        }
+
+        public abstract void SayName();
     }
 }
