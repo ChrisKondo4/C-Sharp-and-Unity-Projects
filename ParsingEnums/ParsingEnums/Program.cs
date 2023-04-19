@@ -14,16 +14,12 @@ namespace ParsingEnums
             try
             {
                 string Input = Console.ReadLine();
-                DaysOfTheWeek Today = (DaysOfTheWeek)Enum.Parse(typeof(DaysOfTheWeek.Day), Input);
+                DaysOfTheWeek.Day Today = (DaysOfTheWeek.Day)Enum.Parse(typeof(DaysOfTheWeek.Day), Input);
                 Console.WriteLine("Today is: " + Today);
             }
             catch (ArgumentException ex)
             {
-                Console.WriteLine("That is not a day of the week.");
-            }
-            finally
-            {
-                Console.WriteLine("Please enter which day of the week it is!");
+                Console.WriteLine("Please enter an actual day of the week.");
             }
         }
     }
