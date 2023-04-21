@@ -8,9 +8,9 @@ namespace Lambda
 {
     public class Employees
     {
-        private int Id;
-        private string firstName;
-        private string lastName;
+        public int Id;
+        public string firstName;
+        public string lastName;
 
         public Employees(int v1, string v2, string v3)
         {

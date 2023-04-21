@@ -26,10 +26,33 @@ namespace Lambda
 
             foreach (Employees employee in currentEmployees)
             {
-                if (employee.firstName = "Joe")
+                if (employee.firstName == "Joe")
                 {
                     theJoes.Add(employee);
                 }
+            }
+
+            foreach (Employees employee in theJoes)
+            {
+                Console.WriteLine(employee.firstName + " " + employee.lastName + " ID " + employee.Id);
+            }
+
+            Console.WriteLine(". . .");
+
+            List<Employees> joeLambda = currentEmployees.Where(x => x.firstName == "Joe").ToList();
+
+            foreach (Employees employee in joeLambda)
+            {
+                Console.WriteLine(employee.firstName + " " + employee.lastName + " ID " + employee.Id);
+            }
+
+            Console.WriteLine(". . . ");
+
+            List<Employees> numLambda = currentEmployees.Where(x => x.Id > 5).ToList();
+
+            foreach (Employees employee in numLambda)
+            {
+                Console.WriteLine(employee.firstName + " " + employee.lastName + " ID " + employee.Id);
             }
         }
     }
